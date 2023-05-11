@@ -21,6 +21,10 @@
     color: var(--light);
   }
   
+  .siteheader {
+    background-image: url("/assets/images/ABBackground2.png");
+  }
+
   h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -29,7 +33,7 @@
   header nav {
     display: flex;
     justify-content: right;
-    background-color: var(--nav);
+    background-color: var(--light);
   }
   
   header nav a {
@@ -52,37 +56,57 @@
     width: 100vw;
     flex: 1;
     background-color: var(--light);
-    padding: 50px;
+    padding: 50px 50px 50px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
-  .title {
-    width: 25%;
+  .title1, .title2, .title3 {
+    width: 15%;
     height: auto;
+    justify-content: left;
+  }
+
+  .title1 {
+    background-image: url("/assets/images/ABV-Header1.png");
+    background-color: var(--nav);
   }
   
+  .title2 {
+    background-image: url("/assets/images/ABSideBar.png");
+    background-color: var(--nav);
+  }
+
+  .title3 {
+    background-image: url("/assets/images/ABV-Header3.png");
+    background-color: var(--nav);
+  }
+
   .aboutme-content, .portfolio-content, .contactme-content {
     width: 75%;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .project-card {
     border-style: none;
     border-radius: 5px;
-    padding: 5px;
-    margin: 15px 15px;
+    padding: 15px;
+    margin: 5px 5px;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 0 44%;
+    flex: 1 0 48%;
+    align-items: center;
+    justify-content: center;
     background-color: var(--dark);
   }
   
   .project-card:first-child {
-    flex: 1 0 100%;
+    flex: 1 0 95%;
   }
 
   .project-card > header {
@@ -128,16 +152,35 @@
     main, body, .aboutme, .portfolio, .contactme {
         flex-direction: column;
     } 
-      
-    .title {
+    
+    .aboutme, .portfolio, .contactme {
+        padding: 50px;
+    }
+
+    .title1, .title2, .title3 {
         width: 100%;
-        height: 25%;
+        height: 20%;
         display: flex;
     }
-      
+
+    .title1 {
+        background-image: url(/assets/images/ABH-Header1.png);
+        background-color: var(--nav);
+    }
+    
+    .title2 {
+        background-image: url(//assets/images/ABH-Header2.png);
+        background-color: var(--nav);
+    }
+    
+    .title1 {
+        background-image: url(/assets/images/ABH-Header3.png);
+        background-color: var(--nav);
+    }
+
     .aboutme-content, .portfolio-content, .contactme-content {
         width: 100%;
-        height: 75%;
+        height: 80%;
     }
   }
 
