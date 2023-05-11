@@ -10,67 +10,104 @@
 </head>
 
 <body>
-  <!-- Header, where name and info go? -->
+  <!-- Header, where name and navbar go -->
   <header>
     <h1>Here's the portfolio, bon apettite</h1>
-    <p>
-      please hire me
-    </p>
-  </header>
+    
+    <nav>
+        <a href="#aboutme">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contactme">Contact Me</a>
+    </nav>
 
-  <!-- Navbar, links to different sections -->
-  <nav>
-    <a href="#">About Me</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Contact Me</a>
-  </nav>
+  </header>
+  <!-- Image Banner -->
+  <div>
+    <img src="background image" alt="Background image of a ?">
+    <p>I don't have programming projects to display yet, so here is some of my art</p>
+  </div>
 
   <br>
 
   <!-- Body -->
   <main>
     <!-- About Me -->
-    <div class="About Me">
-        <header>About Me</header>
-        <p>Relevant things about me, no clue what they are yet</p>
+    <div class="aboutme" id="aboutme">
+        <header class="title">About Me</header>
+        <p class="aboutme-content">Relevant things about me, no clue what they are yet</p>
     </div>
 
     <br>
 
     <!-- Portfolio -->
-    <div class="portfolio">
-      <section class="project">
-        <header>Project 1</header>
-        <img src="relevant screenshot" alt="Project 1" />
-        <p>Project 1 info</p>
-        <a href="link to deployed website">Project 1</a>
-      </section>
-      <section class="project">
-        <header>Project 2</header>
-        <img src="relevant screenshot" alt="Project 2" />
-        <p>Project 2 info</p>
-        <a href="link to deployed website">Project 2</a>
-      </section>
-      <section class="project">
-        <header>Project 3</header>
-        <img src="relevant screenshot" alt="Project 3" />
-        <p>Project 3 info</p>
-        <a href="link to deployed website">Project 3</a>
-      </section>
-      <section class="project">
-        <header>Project 4</header>
-        <img src="relevant screenshot" alt="Project 4" />
-        <p>Project 4 info</p>
-        <a href="link to deployed website">Project 4</a>
-      </section>
+    <div class="portfolio" id="portfolio">
+        <header class="title">Portfolio</header>
+        <div class="portfolio-content">
+            <section class="project-card">
+                <img src="relevant screenshot" alt="Project 1" />
+                <p>Project 1 info</p>
+                <header>
+                    <a href="link to deployed website">Project 1</a>
+                </header>
+            </section>
+            <section class="project-card">
+                <img src="relevant screenshot" alt="Project 2" />
+                <p>Project 2 info</p>
+                <header>
+                    <a href="link to deployed website">Project 2</a>
+                </header> 
+            </section>
+            <section class="project-card">
+                <img src="relevant screenshot" alt="Project 3" />
+                <p>Project 3 info</p>
+                <header>
+                    <a href="link to deployed website">Project 3</a>
+                </header>
+            </section>
+            <section class="project-card">
+                <img src="relevant screenshot" alt="Project 4" />
+                <p>Project 4 info</p>
+                <header>
+                    <a href="link to deployed website">Project 4</a> 
+                </header>
+            </section>
+            <section class="project-card">
+                <img src="relevant screenshot" alt="Project 5" />
+                <p>Project 5 info</p>
+                <header>
+                    <a href="link to deployed website">Project 5</a> 
+                </header>
+            </section>
+        </div>
     </div>
 
     <br>
 
     <!-- Contact Me -->
-    <div class="Contact Me">
-        <header>Contact Me</header>
-        <p>My contact information, probably phone and email, maybe linkedin?</p>
+    <div class="contactme" id="contactme">
+        <header class="title">Contact Me</header>
+        <div class="contactme-content"> 
+            <section class="contact-card">
+                <p>
+                    Phone Number
+                </p>
+            </section>   
+            <section class="contact-card">
+                <p>
+                    Email Address
+                </p>
+            </section>
+            <section class="contact-card">
+                <p>
+                    GitHub Link
+                </p>
+            </section>
+            <section class="contact-card">
+                <p>
+                    Linkedin
+                </p>
+            </section>
+        </div>
     </div>
   </main>
 
@@ -78,9 +115,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>
-      footer things, is this necessary? or is this where the contact info goes?
-    </p>
+    <p>I don't think I actually need this</p>
   </footer>
 </body>
 
