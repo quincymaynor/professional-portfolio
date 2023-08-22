@@ -13,7 +13,7 @@ N/A
 This website can be found at: https://quincymaynor.github.io/professional-portfolio
 and it can be used to review more advanced CSS styling as well as a template for a simple portfolio in addition to its primary purpose as a small artistic portfolio.
 
-![Screenshot of the Portfolio](/assets/images/Professional%20Portfolio%20Screenshots.pdf)
+![Screenshot of the Portfolio](/assets/images/ProfessionalPortfolioScreenshot.png)
 
 ## Credits
 
